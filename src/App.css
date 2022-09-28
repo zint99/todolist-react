@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "myfont";
+  src: url(./assets/fonts/Still\ Night.ttf);
+}
+
+* {
+  font-family: myfont !important;
+}
+
+.todo-list {
+  margin-top: 0.44rem;
+}

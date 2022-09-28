@@ -1,0 +1,33 @@
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 0.7rem;
+  border-bottom: 1px solid #ddd;
+}
+.todo-item .check-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.todo-item .content {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+  font-size: 0.16rem;
+  padding-left: 0.1rem;
+}
+.todo-item .btn-group {
+  display: flex;
+  flex-direction: row;
+  width: 1.7rem;
+  margin-right: 0.1rem;
+}
+.todo-item .btn-group .btn {
+  margin-left: 0.1rem;
+  font-size: 0.12rem;
+}
